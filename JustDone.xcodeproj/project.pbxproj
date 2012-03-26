@@ -49,41 +49,41 @@
 		1D6058910D05DD3D006BFB54 /* JustDone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustDone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = Resources/MainWindow.xib; sourceTree = "<group>"; };
 		28C3AD890F43EF2300507BA6 /* JustDone.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = JustDone.xcdatamodel; sourceTree = "<group>"; };
 		28D801B30F44B63D00FB423F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* JustDone_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JustDone_Prefix.pch; sourceTree = "<group>"; };
 		5209579B1507BF6F005BBBB3 /* Reminders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reminders.h; sourceTree = "<group>"; };
 		5209579C1507BF6F005BBBB3 /* Reminders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reminders.m; sourceTree = "<group>"; };
-		5209579D1507BF6F005BBBB3 /* Reminders.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Reminders.xib; sourceTree = "<group>"; };
-		52208D5E150A6353003EE2D4 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
-		52208D60150A6353003EE2D4 /* tasks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tasks.png; sourceTree = "<group>"; };
-		522312791504B52400F64F7A /* checkbox-checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox-checked.png"; sourceTree = "<group>"; };
-		5223127A1504B52400F64F7A /* checkbox-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox-pressed.png"; sourceTree = "<group>"; };
-		5223127B1504B52400F64F7A /* checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox.png; sourceTree = "<group>"; };
+		5209579D1507BF6F005BBBB3 /* Reminders.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Reminders.xib; path = Resources/Reminders.xib; sourceTree = "<group>"; };
+		52208D5E150A6353003EE2D4 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mail.png; path = Resources/mail.png; sourceTree = "<group>"; };
+		52208D60150A6353003EE2D4 /* tasks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tasks.png; path = Resources/tasks.png; sourceTree = "<group>"; };
+		522312791504B52400F64F7A /* checkbox-checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checkbox-checked.png"; path = "Resources/checkbox-checked.png"; sourceTree = "<group>"; };
+		5223127A1504B52400F64F7A /* checkbox-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checkbox-pressed.png"; path = "Resources/checkbox-pressed.png"; sourceTree = "<group>"; };
+		5223127B1504B52400F64F7A /* checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkbox.png; path = Resources/checkbox.png; sourceTree = "<group>"; };
 		52412CD6151CF47900BED67F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		52412CD8151CF6FE00BED67F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		526161B5150EADAD00A7326E /* RemindersAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemindersAll.h; sourceTree = "<group>"; };
 		526161B6150EADAD00A7326E /* RemindersAll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemindersAll.m; sourceTree = "<group>"; };
-		526161B7150EADAD00A7326E /* RemindersAll.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RemindersAll.xib; sourceTree = "<group>"; };
+		526161B7150EADAD00A7326E /* RemindersAll.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RemindersAll.xib; path = Resources/RemindersAll.xib; sourceTree = "<group>"; };
 		527A54F81520562B00FE96AD /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
 		529B2CBA150692EE00153FEF /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		52C8C15B150D565100111214 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+		52C8C15B150D565100111214 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calendar.png; path = Resources/calendar.png; sourceTree = "<group>"; };
 		52D46F3E14FEE0BF00A66026 /* Tasks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tasks.h; sourceTree = "<group>"; };
 		52D46F3F14FEE0BF00A66026 /* Tasks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tasks.m; sourceTree = "<group>"; };
-		52D46F4014FEE0BF00A66026 /* Tasks.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Tasks.xib; sourceTree = "<group>"; };
+		52D46F4014FEE0BF00A66026 /* Tasks.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Tasks.xib; path = Resources/Tasks.xib; sourceTree = "<group>"; };
 		52D46F4314FEE10200A66026 /* TasksDone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TasksDone.h; sourceTree = "<group>"; };
 		52D46F4414FEE10200A66026 /* TasksDone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TasksDone.m; sourceTree = "<group>"; };
-		52D46F4514FEE10200A66026 /* TasksDone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TasksDone.xib; sourceTree = "<group>"; };
+		52D46F4514FEE10200A66026 /* TasksDone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TasksDone.xib; path = Resources/TasksDone.xib; sourceTree = "<group>"; };
 		52D4A57E1514022F00DBD829 /* LocalNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalNotifier.h; sourceTree = "<group>"; };
 		52D4A57F1514022F00DBD829 /* LocalNotifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalNotifier.m; sourceTree = "<group>"; };
 		52DD3E001516A93A0000CC71 /* RemindersDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemindersDetail.h; sourceTree = "<group>"; };
 		52DD3E011516A93A0000CC71 /* RemindersDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemindersDetail.m; sourceTree = "<group>"; };
-		52DD3E021516A93A0000CC71 /* RemindersDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RemindersDetail.xib; sourceTree = "<group>"; };
+		52DD3E021516A93A0000CC71 /* RemindersDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RemindersDetail.xib; path = Resources/RemindersDetail.xib; sourceTree = "<group>"; };
 		52DD3E051516A94E0000CC71 /* TasksDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TasksDetail.h; sourceTree = "<group>"; };
 		52DD3E061516A94E0000CC71 /* TasksDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TasksDetail.m; sourceTree = "<group>"; };
-		52DD3E071516A94E0000CC71 /* TasksDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TasksDetail.xib; sourceTree = "<group>"; };
+		52DD3E071516A94E0000CC71 /* TasksDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TasksDetail.xib; path = Resources/TasksDetail.xib; sourceTree = "<group>"; };
 		52F3408E15169D1900163960 /* Reminder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reminder.h; sourceTree = "<group>"; };
 		52F3408F15169D1900163960 /* Reminder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reminder.m; sourceTree = "<group>"; };
 		52F3409B15169D9800163960 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
@@ -110,6 +110,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
 				52F3409B15169D9800163960 /* Task.h */,
 				52F3409C15169D9800163960 /* Task.m */,
 				52D46F3E14FEE0BF00A66026 /* Tasks.h */,
@@ -158,7 +159,6 @@
 			isa = PBXGroup;
 			children = (
 				32CA4F630368D1EE00C91783 /* JustDone_Prefix.pch */,
-				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
