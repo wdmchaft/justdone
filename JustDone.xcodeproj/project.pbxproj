@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* JustDoneAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* JustDoneAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28193060112F816700ECF9B4 /* JustDone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2819305F112F816700ECF9B4 /* JustDone.xcdatamodeld */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
+		5209579E1507BF6F005BBBB3 /* Reminders.m in Sources */ = {isa = PBXBuildFile; fileRef = 5209579C1507BF6F005BBBB3 /* Reminders.m */; };
+		5209579F1507BF6F005BBBB3 /* Reminders.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5209579D1507BF6F005BBBB3 /* Reminders.xib */; };
+		52208D62150A6353003EE2D4 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 52208D5E150A6353003EE2D4 /* mail.png */; };
+		52208D64150A6353003EE2D4 /* tasks.png in Resources */ = {isa = PBXBuildFile; fileRef = 52208D60150A6353003EE2D4 /* tasks.png */; };
+		5223127C1504B52400F64F7A /* checkbox-checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 522312791504B52400F64F7A /* checkbox-checked.png */; };
+		5223127D1504B52400F64F7A /* checkbox-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 5223127A1504B52400F64F7A /* checkbox-pressed.png */; };
+		5223127E1504B52400F64F7A /* checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 5223127B1504B52400F64F7A /* checkbox.png */; };
+		52412CD7151CF47900BED67F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52412CD6151CF47900BED67F /* icon.png */; };
+		52412CD9151CF6FE00BED67F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 52412CD8151CF6FE00BED67F /* Default.png */; };
+		526161B8150EADAD00A7326E /* RemindersAll.m in Sources */ = {isa = PBXBuildFile; fileRef = 526161B6150EADAD00A7326E /* RemindersAll.m */; };
+		526161B9150EADAD00A7326E /* RemindersAll.xib in Resources */ = {isa = PBXBuildFile; fileRef = 526161B7150EADAD00A7326E /* RemindersAll.xib */; };
+		527A54F91520562B00FE96AD /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 527A54F81520562B00FE96AD /* iTunesArtwork */; };
+		529B2CBB150692EE00153FEF /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 529B2CBA150692EE00153FEF /* MessageUI.framework */; };
+		52C8C15C150D565100111214 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C8C15B150D565100111214 /* calendar.png */; };
+		52D46F4114FEE0BF00A66026 /* Tasks.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D46F3F14FEE0BF00A66026 /* Tasks.m */; };
+		52D46F4214FEE0BF00A66026 /* Tasks.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52D46F4014FEE0BF00A66026 /* Tasks.xib */; };
+		52D46F4614FEE10200A66026 /* TasksDone.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D46F4414FEE10200A66026 /* TasksDone.m */; };
+		52D46F4714FEE10200A66026 /* TasksDone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52D46F4514FEE10200A66026 /* TasksDone.xib */; };
+		52D4A5801514022F00DBD829 /* LocalNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D4A57F1514022F00DBD829 /* LocalNotifier.m */; };
+		52DD3E031516A93A0000CC71 /* RemindersDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DD3E011516A93A0000CC71 /* RemindersDetail.m */; };
+		52DD3E041516A93A0000CC71 /* RemindersDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52DD3E021516A93A0000CC71 /* RemindersDetail.xib */; };
+		52DD3E081516A94E0000CC71 /* TasksDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DD3E061516A94E0000CC71 /* TasksDetail.m */; };
+		52DD3E091516A94E0000CC71 /* TasksDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52DD3E071516A94E0000CC71 /* TasksDetail.xib */; };
+		52F3409015169D1900163960 /* Reminder.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F3408F15169D1900163960 /* Reminder.m */; };
+		52F3409D15169D9800163960 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F3409C15169D9800163960 /* Task.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* JustDoneAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JustDoneAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* JustDoneAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JustDoneAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* JustDone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustDone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C3AD890F43EF2300507BA6 /* JustDone.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = JustDone.xcdatamodel; sourceTree = "<group>"; };
+		28D801B30F44B63D00FB423F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* JustDone_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JustDone_Prefix.pch; sourceTree = "<group>"; };
+		5209579B1507BF6F005BBBB3 /* Reminders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reminders.h; sourceTree = "<group>"; };
+		5209579C1507BF6F005BBBB3 /* Reminders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reminders.m; sourceTree = "<group>"; };
+		5209579D1507BF6F005BBBB3 /* Reminders.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Reminders.xib; sourceTree = "<group>"; };
+		52208D5E150A6353003EE2D4 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
+		52208D60150A6353003EE2D4 /* tasks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tasks.png; sourceTree = "<group>"; };
+		522312791504B52400F64F7A /* checkbox-checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox-checked.png"; sourceTree = "<group>"; };
+		5223127A1504B52400F64F7A /* checkbox-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox-pressed.png"; sourceTree = "<group>"; };
+		5223127B1504B52400F64F7A /* checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox.png; sourceTree = "<group>"; };
+		52412CD6151CF47900BED67F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		52412CD8151CF6FE00BED67F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		526161B5150EADAD00A7326E /* RemindersAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemindersAll.h; sourceTree = "<group>"; };
+		526161B6150EADAD00A7326E /* RemindersAll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemindersAll.m; sourceTree = "<group>"; };
+		526161B7150EADAD00A7326E /* RemindersAll.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RemindersAll.xib; sourceTree = "<group>"; };
+		527A54F81520562B00FE96AD /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		529B2CBA150692EE00153FEF /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		52C8C15B150D565100111214 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+		52D46F3E14FEE0BF00A66026 /* Tasks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tasks.h; sourceTree = "<group>"; };
+		52D46F3F14FEE0BF00A66026 /* Tasks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tasks.m; sourceTree = "<group>"; };
+		52D46F4014FEE0BF00A66026 /* Tasks.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Tasks.xib; sourceTree = "<group>"; };
+		52D46F4314FEE10200A66026 /* TasksDone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TasksDone.h; sourceTree = "<group>"; };
+		52D46F4414FEE10200A66026 /* TasksDone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TasksDone.m; sourceTree = "<group>"; };
+		52D46F4514FEE10200A66026 /* TasksDone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TasksDone.xib; sourceTree = "<group>"; };
+		52D4A57E1514022F00DBD829 /* LocalNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalNotifier.h; sourceTree = "<group>"; };
+		52D4A57F1514022F00DBD829 /* LocalNotifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalNotifier.m; sourceTree = "<group>"; };
+		52DD3E001516A93A0000CC71 /* RemindersDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemindersDetail.h; sourceTree = "<group>"; };
+		52DD3E011516A93A0000CC71 /* RemindersDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemindersDetail.m; sourceTree = "<group>"; };
+		52DD3E021516A93A0000CC71 /* RemindersDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RemindersDetail.xib; sourceTree = "<group>"; };
+		52DD3E051516A94E0000CC71 /* TasksDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TasksDetail.h; sourceTree = "<group>"; };
+		52DD3E061516A94E0000CC71 /* TasksDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TasksDetail.m; sourceTree = "<group>"; };
+		52DD3E071516A94E0000CC71 /* TasksDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TasksDetail.xib; sourceTree = "<group>"; };
+		52F3408E15169D1900163960 /* Reminder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reminder.h; sourceTree = "<group>"; };
+		52F3408F15169D1900163960 /* Reminder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reminder.m; sourceTree = "<group>"; };
+		52F3409B15169D9800163960 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		52F3409C15169D9800163960 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* JustDone-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "JustDone-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */,
+				529B2CBB150692EE00153FEF /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				52F3409B15169D9800163960 /* Task.h */,
+				52F3409C15169D9800163960 /* Task.m */,
+				52D46F3E14FEE0BF00A66026 /* Tasks.h */,
+				52D46F3F14FEE0BF00A66026 /* Tasks.m */,
+				52D46F4314FEE10200A66026 /* TasksDone.h */,
+				52D46F4414FEE10200A66026 /* TasksDone.m */,
+				52DD3E051516A94E0000CC71 /* TasksDetail.h */,
+				52DD3E061516A94E0000CC71 /* TasksDetail.m */,
+				52F3408E15169D1900163960 /* Reminder.h */,
+				52F3408F15169D1900163960 /* Reminder.m */,
+				5209579B1507BF6F005BBBB3 /* Reminders.h */,
+				5209579C1507BF6F005BBBB3 /* Reminders.m */,
+				526161B5150EADAD00A7326E /* RemindersAll.h */,
+				526161B6150EADAD00A7326E /* RemindersAll.m */,
+				52DD3E001516A93A0000CC71 /* RemindersDetail.h */,
+				52DD3E011516A93A0000CC71 /* RemindersDetail.m */,
+				52D4A57E1514022F00DBD829 /* LocalNotifier.h */,
+				52D4A57F1514022F00DBD829 /* LocalNotifier.m */,
+				1D3623240D0F684500981E51 /* JustDoneAppDelegate.h */,
+				1D3623250D0F684500981E51 /* JustDoneAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* JustDone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* JustDone_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				52412CD6151CF47900BED67F /* icon.png */,
+				527A54F81520562B00FE96AD /* iTunesArtwork */,
+				2819305F112F816700ECF9B4 /* JustDone.xcdatamodeld */,
+				52C8C15B150D565100111214 /* calendar.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				52412CD8151CF6FE00BED67F /* Default.png */,
+				522312791504B52400F64F7A /* checkbox-checked.png */,
+				5223127A1504B52400F64F7A /* checkbox-pressed.png */,
+				5223127B1504B52400F64F7A /* checkbox.png */,
+				8D1107310486CEB800E47090 /* JustDone-Info.plist */,
+				52D46F4014FEE0BF00A66026 /* Tasks.xib */,
+				52208D5E150A6353003EE2D4 /* mail.png */,
+				52208D60150A6353003EE2D4 /* tasks.png */,
+				52DD3E071516A94E0000CC71 /* TasksDetail.xib */,
+				52DD3E021516A93A0000CC71 /* RemindersDetail.xib */,
+				52D46F4514FEE10200A66026 /* TasksDone.xib */,
+				526161B7150EADAD00A7326E /* RemindersAll.xib */,
+				5209579D1507BF6F005BBBB3 /* Reminders.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				28D801B30F44B63D00FB423F /* CoreData.framework */,
+				529B2CBA150692EE00153FEF /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* JustDone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "JustDone" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JustDone;
+			productName = JustDone;
+			productReference = 1D6058910D05DD3D006BFB54 /* JustDone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = GEGidoni;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "JustDone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* JustDone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				52D46F4214FEE0BF00A66026 /* Tasks.xib in Resources */,
+				52D46F4714FEE10200A66026 /* TasksDone.xib in Resources */,
+				5223127C1504B52400F64F7A /* checkbox-checked.png in Resources */,
+				5223127D1504B52400F64F7A /* checkbox-pressed.png in Resources */,
+				5223127E1504B52400F64F7A /* checkbox.png in Resources */,
+				5209579F1507BF6F005BBBB3 /* Reminders.xib in Resources */,
+				52208D62150A6353003EE2D4 /* mail.png in Resources */,
+				52208D64150A6353003EE2D4 /* tasks.png in Resources */,
+				52C8C15C150D565100111214 /* calendar.png in Resources */,
+				526161B9150EADAD00A7326E /* RemindersAll.xib in Resources */,
+				52DD3E041516A93A0000CC71 /* RemindersDetail.xib in Resources */,
+				52DD3E091516A94E0000CC71 /* TasksDetail.xib in Resources */,
+				52412CD7151CF47900BED67F /* icon.png in Resources */,
+				52412CD9151CF6FE00BED67F /* Default.png in Resources */,
+				527A54F91520562B00FE96AD /* iTunesArtwork in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* JustDoneAppDelegate.m in Sources */,
+				28193060112F816700ECF9B4 /* JustDone.xcdatamodeld in Sources */,
+				52D46F4114FEE0BF00A66026 /* Tasks.m in Sources */,
+				52D46F4614FEE10200A66026 /* TasksDone.m in Sources */,
+				5209579E1507BF6F005BBBB3 /* Reminders.m in Sources */,
+				526161B8150EADAD00A7326E /* RemindersAll.m in Sources */,
+				52D4A5801514022F00DBD829 /* LocalNotifier.m in Sources */,
+				52F3409015169D1900163960 /* Reminder.m in Sources */,
+				52F3409D15169D9800163960 /* Task.m in Sources */,
+				52DD3E031516A93A0000CC71 /* RemindersDetail.m in Sources */,
+				52DD3E081516A94E0000CC71 /* TasksDetail.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JustDone_Prefix.pch;
+				INFOPLIST_FILE = "JustDone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = JustDone;
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JustDone_Prefix.pch;
+				INFOPLIST_FILE = "JustDone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = JustDone;
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Release;
+		};
+		527402801520484900AB24A1 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AppStore;
+		};
+		527402811520484900AB24A1 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JustDone_Prefix.pch;
+				INFOPLIST_FILE = "JustDone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = JustDone;
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = AppStore;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "JustDone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				527402811520484900AB24A1 /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "JustDone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				527402801520484900AB24A1 /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2819305F112F816700ECF9B4 /* JustDone.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				28C3AD890F43EF2300507BA6 /* JustDone.xcdatamodel */,
+			);
+			currentVersion = 28C3AD890F43EF2300507BA6 /* JustDone.xcdatamodel */;
+			path = JustDone.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
