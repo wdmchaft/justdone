@@ -92,6 +92,11 @@
         [alert release];
     }
     
+    NSUInteger count = [fetchController.fetchedObjects count];
+    self.navigationController.tabBarItem.badgeValue = nil;
+    if (count > 0)
+        self.navigationController.tabBarItem.badgeValue = [NSString stringWithFormat:@"%d", count];
+
     [self.tableView reloadData];
     
     [sortDescriptors release];
